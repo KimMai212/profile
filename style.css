@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #bef4ee1a;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 50px 0;
+}
+
+h1, h2, h3, a {
+  line-height: 120%;
+}
+
+h1 {
+  color: #065B5B;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #065B5B;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #6E1253;
+  transition: all .3s;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #5c1047bf;
+}
+
+a.button {
+  background-color: #6E1253;
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+a.button:hover {
+  background: #5c1047bf;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.fab {
+  font-size: 50px;
+  margin: 0 10px;
+}
+
+.container {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 2px 30px rgba(0,0,0,.1);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#img-profile {
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 679px) {
+  .container {
+    width: 90%;
+  }
+  .card {
+    padding: 25px;
+  }
+}
